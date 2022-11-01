@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  background-color: rgb(116, 139, 182);
+}
+body {
+  margin: 0px;
+}
+input {
+  padding: 1rem;
+  width: 80%;
+  border-color: blue;
+}
+span {
+  max-width: 300px;
+  display: inline;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0rem;
+}
+.emojis {
+  /* margin: 200px; */
+  /* display: inline; */
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+span {
+  margin: 100px;
+  display: flexbox;
+}
+h1 {
+  color: rgb(44, 9, 170);
+}
