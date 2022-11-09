@@ -80,11 +80,7 @@ export default function App() {
       <h3> {meaning} </h3> {/** how much part is re-rendered. */}
       <div className="emojis">
         {
-          /** Bonus feature; if time permmits */
-          /**
-           * concepts to cover: mapping a list
-           * click handler on list item
-           */
+          
           emojis.map((emoji) => (
             <span
               onClick={() => emojiClickHandler(emoji)}
